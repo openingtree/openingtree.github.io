@@ -145,3 +145,19 @@
     color:#007bff;
     text-decoration:none;
 }
+
+.rootView {
+    margin-bottom:60px
+}
+@media screen and (max-width: 767px) {
+    .paddingTop {
+        padding-top:15px
+    }
+}
+.fenField {
+    width:100%;
+    font-size:10px;
+}
+.fenDiv {
+    padding-top:10px;
+}
