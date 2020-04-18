@@ -7,7 +7,6 @@
 
 .pgnloadersection {
     margin-top:10px;
-    margin-left:10px;
     color:#555555;
 }
 
@@ -168,4 +167,41 @@
 
 .mainButton {
     width:75%
+}
+
+.MuiExpansionPanelDetails-root {
+    display: block;
+}
+
+.styledNumbers {
+    padding-right:10px
+}
+
+.dropzonetext {
+    font-size:16px;
+    color:#767676;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+.previewChip {
+    margin-left:10px;
+}
+
+.dropzone {
+    background-color:#FBFBFB;
+    max-height:450px;
+    min-height:125px;
+    overflow:hidden;
+}
+
+.sourceIcon {
+    opacity:0.6;
+}
+
+.sourceName {
+    vertical-align: text-top;
 }
