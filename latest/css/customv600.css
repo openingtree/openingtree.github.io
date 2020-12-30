@@ -31,6 +31,9 @@
 .navItem.border {
     border-color: #f1f1f1 !important;
 }
+.navMoveNumber {
+    background-color: #EEEEEE;
+}
 
 .navMove:hover {
     background-color: #dcdcdc;
@@ -295,7 +298,7 @@ coord {
     margin-bottom:-3px;
 }
 
-.feedbackIcon {
+.largeHeaderIcon {
     font-size:21px;
     margin-bottom:-2px;
 }
@@ -363,7 +366,6 @@ body.dark-theme .performanceOverlay th {
 body.dark-theme button:hover,
 body.dark-theme .nav-item .active.nav-link,
 body.dark-theme nav.navbar,
-body.dark-theme #navigator .selectedMove,
 body.dark-theme div.card,
 body.dark-theme .MuiPaper-root:not([class*=" SnackbarContentWrapper-"]),
 body.dark-theme .moveRow:hover,
@@ -429,7 +431,8 @@ body.dark-theme .MuiCheckbox-colorPrimary.Mui-checked,
 body.dark-theme .MuiSlider-thumb,
 body.dark-theme .MuiSlider-markLabel,
 body.dark-theme .performanceRatingRow,
-body.dark-theme .list-group-item {
+body.dark-theme .list-group-item, 
+body.dark-theme .card-body {
     color: #DDD;
 }
 
@@ -461,6 +464,10 @@ body.dark-theme .MuiSlider-root {
 body.dark-theme .nav-link:hover,
 body.dark-theme #navigator .navMove:hover {
     color: #999;
+}
+
+body.dark-theme .navMoveNumber {
+    background-color: #777777;
 }
 
 body.dark-theme .cg-wrap {
