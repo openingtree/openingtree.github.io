@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.js": "./static/js/main.d2a8180a.chunk.js",
-    "main.js.map": "./static/js/main.d2a8180a.chunk.js.map",
+    "main.js": "./static/js/main.b06db542.chunk.js",
+    "main.js.map": "./static/js/main.b06db542.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.f3d803b7.js",
     "runtime-main.js.map": "./static/js/runtime-main.f3d803b7.js.map",
-    "static/css/2.c8b47934.chunk.css": "./static/css/2.c8b47934.chunk.css",
-    "static/js/2.0c56d008.chunk.js": "./static/js/2.0c56d008.chunk.js",
-    "static/js/2.0c56d008.chunk.js.map": "./static/js/2.0c56d008.chunk.js.map",
+    "static/css/2.a120d54f.chunk.css": "./static/css/2.a120d54f.chunk.css",
+    "static/js/2.63a8c594.chunk.js": "./static/js/2.63a8c594.chunk.js",
+    "static/js/2.63a8c594.chunk.js.map": "./static/js/2.63a8c594.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b3772e3d4379fb388e5efa4643d0e970.js": "./precache-manifest.b3772e3d4379fb388e5efa4643d0e970.js",
+    "precache-manifest.5be2ed24555d79bb8b9295a61c2de474.js": "./precache-manifest.5be2ed24555d79bb8b9295a61c2de474.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/2.c8b47934.chunk.css.map": "./static/css/2.c8b47934.chunk.css.map",
-    "static/js/0.11d6938e.chunk.worker.js": "./static/js/0.11d6938e.chunk.worker.js",
-    "static/js/0.11d6938e.chunk.worker.js.LICENSE.txt": "./static/js/0.11d6938e.chunk.worker.js.LICENSE.txt",
-    "static/js/0.11d6938e.chunk.worker.js.map": "./static/js/0.11d6938e.chunk.worker.js.map",
-    "static/js/2.0c56d008.chunk.js.LICENSE.txt": "./static/js/2.0c56d008.chunk.js.LICENSE.txt",
+    "static/css/2.a120d54f.chunk.css.map": "./static/css/2.a120d54f.chunk.css.map",
+    "static/js/0.3a073706.chunk.worker.js": "./static/js/0.3a073706.chunk.worker.js",
+    "static/js/0.3a073706.chunk.worker.js.LICENSE.txt": "./static/js/0.3a073706.chunk.worker.js.LICENSE.txt",
+    "static/js/0.3a073706.chunk.worker.js.map": "./static/js/0.3a073706.chunk.worker.js.map",
+    "static/js/2.63a8c594.chunk.js.LICENSE.txt": "./static/js/2.63a8c594.chunk.js.LICENSE.txt",
     "static/media/chessground.css": "./static/media/wR.57350123.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f3d803b7.js",
-    "static/css/2.c8b47934.chunk.css",
-    "static/js/2.0c56d008.chunk.js",
-    "static/js/main.d2a8180a.chunk.js"
+    "static/css/2.a120d54f.chunk.css",
+    "static/js/2.63a8c594.chunk.js",
+    "static/js/main.b06db542.chunk.js"
   ]
 }
