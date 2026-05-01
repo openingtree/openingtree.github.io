@@ -1,0 +1,491 @@
+.nav-tabs .nav-link {
+    cursor: pointer;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.settingButton {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.settingButton:hover  {
+    background-color: #dcdcdc;
+}
+
+.pgnloadersection {
+    margin-top:10px;
+    color:#555555;
+}
+
+.navItem {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem.border {
+    border-color: #f1f1f1 !important;
+}
+.navMoveNumber {
+    background-color: #EEEEEE;
+}
+
+.navMove:hover {
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+
+.navSection {
+    padding:0px;
+}
+.navCol {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.borderRadius {
+    border-radius:0.25rem;
+}
+
+.selectedMove {
+    background-color:rgba(173, 216, 230,0.4);
+}
+
+.moveRow.bgColor:hover  {
+    background-color: lightblue;
+    cursor: pointer;
+}
+.moveRow:hover  {
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+
+.bgColor {
+    background-color: lightblue;
+}
+
+.smallCol {
+    width: 2rem;
+}
+
+.whiteMove {
+    background-color: #fff;
+    box-shadow: 0 -5px 7px rgba(0,0,0,0.1) inset;
+    color:#4d4d4d;
+}
+.grayMove {
+    background-color: #a0a0a0;
+    box-shadow: 0 5px 7px rgba(255,255,255,0.2) inset;
+    color:#fff
+}
+.blackMove {
+    background-color: #555;
+    box-shadow: 0 5px 7px rgba(255,255,255,0.2) inset;
+    color:#ddd;
+}
+
+.infoMessage {
+    color:gray;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+.navLinkButton {
+    color:#202529;
+    cursor:pointer;
+}
+
+.navLinkButton span {
+    margin: 4px;
+}
+
+.fullWidth {
+    width:100%
+}
+
+.mainContainer {
+    margin-top:15px;
+    max-width:1536px;
+}
+
+.siteimage {
+    height:24px;
+}
+
+.sitelabel {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.whitelabel {
+    margin-top:0px;
+    margin-bottom:-5px;
+}
+.blacklabel {
+    margin-top:-5px;
+    margin-bottom:-5px;
+}
+
+.bootNavColor {
+    color:rgba(0,0,0,0.5)
+}
+
+.acknowledgement{
+    line-height: 0.80;
+}
+.greyText {
+    color:grey;
+}
+
+.smallText {
+    font-size:0.75rem;
+}
+.nomargin {
+    margin:0px
+}
+.topNegativeMargin {
+    margin-top:-10px;
+}
+.bottomNegativeMargin {
+    margin-bottom:-10px;
+}
+.topBottomNegativeMargin {
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+.sliderCustom {
+    width:50%;
+    margin-left:30px;
+}
+
+.pointerExternalLink {
+    cursor: context-menu;
+}
+
+.performanceRatingRow {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.performanceHeader {
+    background-color:#f7f7f7;
+}
+
+.lowOpacity {
+    opacity: 0.6;
+}
+
+.linkStyle{
+    cursor:pointer;
+    color:#007bff;
+    text-decoration:none;
+}
+
+.rootView {
+    margin-bottom:60px
+}
+@media screen and (max-width: 767px) {
+    .paddingTop {
+        padding-top:15px
+    }
+}
+.fenField {
+    width:100%;
+    font-size:10px;
+}
+.fenDiv {
+    padding-top:10px;
+}
+.errorCard {
+    margin-top:10px;
+}
+
+.playernameField {
+    width:75%
+}
+.urlField {
+    width:100%
+}
+.mainButton {
+    width:75%
+}
+
+.MuiExpansionPanelDetails-root {
+    display: block;
+}
+
+.MuiAccordionDetails-root {
+    display: flex;
+    flex-flow: column;
+}
+
+.styledNumbers {
+    padding-right:10px
+}
+
+.dropzonetext {
+    font-size:16px;
+    color:#767676;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+.previewChip {
+    margin-left:10px;
+}
+
+.dropzone {
+    background-color:#FBFBFB;
+    max-height:450px;
+    min-height:125px;
+    overflow:hidden;
+}
+
+.sourceIcon {
+    opacity:0.6;
+}
+
+.sourceName {
+    vertical-align: text-top;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+coord {
+    font-size: 0.75rem;
+}
+
+.profilePicture {
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-right: 10px;
+    float:left;
+}
+
+.dividerMargin {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.singlePadding {
+    padding-top:0.75rem;
+    padding-bottom:0.75rem;
+    padding-left:1rem;
+    padding-right:1rem;
+
+}
+.smallBottomMargin {
+    margin-bottom:0.25rem;
+}
+.bottomMargin {
+    margin-bottom:1rem;
+}
+
+.discordIcon {
+    color:rgb(121,136,215);
+    font-size:21px;
+    margin-bottom:-3px;
+}
+
+.largeHeaderIcon {
+    font-size:21px;
+    margin-bottom:-2px;
+}
+.moreIcon {
+    font-size:21px;
+    margin-right:3px;
+}
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.bigSpinner {
+    width: 3rem;
+    height: 3rem;
+    opacity: 0.5;
+}
+
+.noBottomMargin {
+    margin-bottom:0px;
+}
+.greenColor{
+    color:green
+}
+.redColor{
+    color:red
+}
+.leftMargin2 {
+    margin-left:2px;
+}
+.leftMargin4 {
+    margin-left:4px;
+}
+.RSPBprogressBar {
+    background:transparent
+}
+.leftPadding{
+    padding-left:2px;
+}
+.zeroHeight{
+    height:0px;
+}
+.scoresProgress{
+    padding-bottom:2px;
+}
+.littlePaddingTop{
+    padding-top:7px
+}
+.floatRight{
+    float:right
+}
+
+/* Dark theme styles */
+
+body.dark-theme {
+    background-color: #333;
+}
+
+body.dark-theme .performanceOverlay th {
+    background-color: #444;
+}
+
+body.dark-theme button:hover,
+body.dark-theme .nav-item .active.nav-link,
+body.dark-theme nav.navbar,
+body.dark-theme div.card,
+body.dark-theme .MuiPaper-root:not([class*=" SnackbarContentWrapper-"]),
+body.dark-theme .moveRow:hover,
+body.dark-theme .performanceOverlay tr,
+body.dark-theme .list-group-item {
+    background-color: #555;
+}
+
+body.dark-theme .modal-content,
+body.dark-theme .dropdown-menu,
+body.dark-theme .faq-row {
+    background-color: #666;
+}
+
+body.dark-theme .mainButton {
+    background-color: #777;
+}
+
+body.dark-theme .navItem.border {
+    border-color: #999 !important;
+}
+
+body.dark-theme .MuiSwitch-thumb {
+    background-color: white;
+}
+
+body.dark-theme .linkStyle,
+body.dark-theme a,
+body.dark-theme a:hover,
+body.dark-theme .MuiTypography-colorPrimary,
+body.dark-theme .MuiTypography-colorPrimary:hover,
+body.dark-theme .btn-link,
+body.dark-theme .btn-primary:hover {
+    color: #66E1FF;
+}
+
+body.dark-theme coord,
+body.dark-theme p,
+body.dark-theme button span,
+body.dark-theme button svg,
+body.dark-theme nav.navbar,
+body.dark-theme .nav-link,
+body.dark-theme .nav-item .nav-link,
+body.dark-theme .infoMessage,
+body.dark-theme .infoMessage .navLinkButton,
+body.dark-theme #navigator,
+body.dark-theme #navigator .greyText,
+body.dark-theme tr.moveRow td,
+body.dark-theme th,
+body.dark-theme textarea,
+body.dark-theme .fenDiv label,
+body.dark-theme input,
+body.dark-theme .MuiPaper-root,
+body.dark-theme .MuiRadio-colorPrimary,
+body.dark-theme .MuiInputLabel-formControl,
+body.dark-theme .MuiFormControlLabel-label,
+body.dark-theme .MuiTableCell-footer,
+body.dark-theme legend.MuiFormLabel-root,
+body.dark-theme .pgnloadersection,
+body.dark-theme .modal-content,
+body.dark-theme .dropdown-menu,
+body.dark-theme .MuiCheckbox-colorPrimary.Mui-checked,
+body.dark-theme .MuiSlider-thumb,
+body.dark-theme .MuiSlider-markLabel,
+body.dark-theme .performanceRatingRow,
+body.dark-theme .list-group-item, 
+body.dark-theme .card-body {
+    color: #DDD;
+}
+
+body.dark-theme .faq-row .row-title-text {
+    color: white;
+}
+
+body.dark-theme .btn-primary,
+body.dark-theme input[type="search"] {
+    color: #333;
+}
+
+body.dark-theme .MuiButton-containedPrimary {
+    background-color: #3f51b5;
+}
+
+body.dark-theme .MuiButton-containedPrimary:hover {
+    background-color: #303f9f;
+}
+
+body.dark-theme .MuiFormHelperText-root.Mui-error {
+    color: #FF5D50;
+}
+
+body.dark-theme .MuiSlider-root {
+    color: #66E1FF;
+}
+
+body.dark-theme .nav-link:hover,
+body.dark-theme #navigator .navMove:hover {
+    color: #999;
+}
+
+body.dark-theme .navMoveNumber {
+    background-color: #777777;
+}
+
+body.dark-theme .cg-wrap {
+    filter: grayscale(20%);
+}
+
+body.dark-theme .dropzone {
+    background-color: #777;
+}
+
+body.dark-theme div.react-datepicker__input-container > input{
+    color:#222
+}
+
+body.dark-theme input.select-search-box__search::placeholder{
+    color: #999999
+}
+
+body.dark-theme span.MuiChip-label{
+    color:#DDD
+}
